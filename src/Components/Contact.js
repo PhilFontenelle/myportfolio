@@ -7,19 +7,18 @@ let number = 4165090163;
 
 
 function Contact(){
-	const contact = () => {
-		<div>
-		<h1> Contact info   </h1>
-		</div>
-	}
-	const git = "https://github.com/PhilFontenelle?tab=repositories";
 
+	const contact =  <h1> Contact info   </h1>
+	
 
-	return(<div> 
-<h3>
-< a href='{git}' >GitHub</a>
+	const git = "https://github.com/PhilFontenelle?tab=repositories"
 
-</h3>
+	return(
+	<div> 
+		<h1>{contact}</h1>
+	<h3>
+		< a href={git} target="_blank">GitHub</a>
+	</h3>
 	</div>
 	)
 }

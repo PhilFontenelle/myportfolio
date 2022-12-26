@@ -8,21 +8,39 @@ import Education from "./Components/Education";
 import Professional from "./Components/Professional";
 import Skills from "./Components/Skills";
 import Home from './Components/Home';
-
+import Footer from './Footer';
 
 function App() {
-  
+ 
   
   return (
+ 
 
-    <Router> 
-      <ul>
-      <li><Link to='/'>Home</Link></li>
-      <li><Link to='/contact'>Contact</Link></li>
-      <li><Link to='/education'>Education</Link></li>
-      <li><Link to='/professional'>Professional</Link></li>
-      <li><Link to='/skills'>Skills</Link></li>
-      </ul>
+    <Router > 
+      <>put inline and keep at top
+      <p style={{
+      textAlign: "center"
+    }}><Link to='/'>Home</Link></p>
+
+      <p style={{
+      textAlign: "center"
+    }}
+
+      ><Link to='/contact'>Contact</Link></p>
+
+      <p style={{
+      textAlign: "center"
+    
+    }}><Link to='/education'>Education</Link></p>
+
+      <p style={{
+      textAlign: "center"
+    }}><Link to='/professional'>Professional</Link></p>
+      <p style={{
+      textAlign: "center"
+      
+    }}><Link to='/skills'>Skills</Link></p>
+      
 
       <Routes>
       <Route exact path='/' element={<Home/>}></Route>
@@ -31,11 +49,10 @@ function App() {
       <Route path='/professional' element={<Professional/>}></Route>
       <Route path='/skills' element={<Skills/>} ></Route> 
       </Routes>
-
+</>
+<Footer/>
     </Router>
-  
-  
-  );
+);
 }
 
 export default App;

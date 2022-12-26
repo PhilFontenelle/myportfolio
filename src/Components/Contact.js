@@ -14,17 +14,18 @@ function Contact(){
 		<>
 		<h1> Contact info   </h1>
 		<b><i>{mEmail}</i> </b>
+		<em>{number}</em>
 		</>
 	)
 
 
 	return(
 	<div> 
-		<h1>{contact}</h1>
+		<h6>{contact}</h6>
 	<h3>
 		< a href={git} target="_blank">GitHub</a>
 	</h3>
-	
+
 	<h3>
 		<a href={linked} target="_blank">Linkedin</a>
 	</h3>

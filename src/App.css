@@ -2,6 +2,66 @@
   text-align: center;
 }
 
+
+
+#footer{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+
+#container {
+  width:fit-content;
+  margin: 15%;
+position: relative;
+}
+
+
+#circle{
+  width: 100%;
+}
+
+
+#deco{
+padding-right: auto;
+  display:block;
+}
+#decor{
+  font-size: 73%;
+  margin-left: 35%;
+  margin-top: 35%;
+}
+
+
+
+#dot {
+  height: 60px;
+  width: 50px;
+  font-size: 250%;
+  padding-top: 45px;
+  padding-left:55px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  background-color:#a7e9faed;
+  border-radius: 50%;
+  display: flex;
+}
+.Dot{
+  text-align: center;
+display:inline-block;
+  margin: 25px;
+  
+
+}
+
+.baseColor {
+  color: #0d98ba;
+   text-align: center;
+   
+  }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

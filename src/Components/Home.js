@@ -3,10 +3,17 @@ import React from "react";
 
 const Home = () => (
 
-<div className="App">
-      
+<div>
+
+
 <h1>My Portfolio </h1>
 <h2>Philbert Fontenelle {'\u00A9'}</h2>    
+
+
+
+
+
+
 
 </div>
 

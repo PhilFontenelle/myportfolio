@@ -2,12 +2,14 @@ import React from "react";
 
 
 const Home = () => (
-
 <div>
 
 
-<h1>My Portfolio </h1>
-<h2>Philbert Fontenelle {'\u00A9'}</h2>    
+ <h1>My Portfolio </h1>
+ <h2>Philbert Fontenelle </h2>    
+
+
+
 
 
 
@@ -16,7 +18,6 @@ const Home = () => (
 
 
 </div>
-
 );
 
 export default Home;

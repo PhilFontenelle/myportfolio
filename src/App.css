@@ -2,7 +2,9 @@
   text-align: center;
 }
 
-
+.subHeading{
+color: grey;
+}
 
 #footer{
     position: absolute;

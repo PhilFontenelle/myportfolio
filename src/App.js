@@ -9,6 +9,7 @@ import Professional from "./Components/Professional";
 import Skills from "./Components/Skills";
 import Home from './Components/Home';
 import Footer from './Footer';
+import Header from './Header';
 
 function App() {
  
@@ -17,7 +18,9 @@ function App() {
  
 
     <Router > 
+      
       <>put inline and keep at top
+      <Header/>
       <p style={{
       textAlign: "center"
     }}><Link to='/'>Home</Link></p>

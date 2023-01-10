@@ -14,7 +14,7 @@ return (
 
     <svg
  
-        style={{  marginBottom:'-60px',width:'100%' }} 
+        style={{  marginBottom:'-auto',width:'100%' }} 
         xmlns="http://www.w3.org/2000/svg" 
         viewBox="0 0 1440 320">
         <defs>

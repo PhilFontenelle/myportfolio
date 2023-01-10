@@ -9,9 +9,11 @@ return (
 
     <svg
  
-        style={{width:'100%',
+        style={{marginTop:'-1.5%',
+                width:'100%',
+                position:'absolute',
                 transform : 'rotate(180deg)',
-                zIndex:'1'}} 
+                zIndex:'-1'}} 
         xmlns="http://www.w3.org/2000/svg" 
         viewBox="0 0 1440 320">
 

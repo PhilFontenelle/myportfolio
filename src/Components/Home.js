@@ -1,66 +1,26 @@
 import React, { useEffect, useState } from "react";
 import {motion} from "framer-motion"
-
-function RandomQuotes(quotes){
-    return quotes[Math.floor(Math.random()*quotes.length)];
-    }
+import { Link } from "react-router-dom";
+import './otherone.css'
 
 export default function Home () {
-   
-
-    const [quotes,SetQuotes]=useState([]);
-    const [quote,SetQuote]=useState(null);  
+ 
     
-    useEffect(()=>{
-        ShowQuote()
-    },[quotes])
-    
-
     
  
-    useEffect(()=>{
-
-        fetch("../quotes.json")
-        .then((res)=>res.json())
-        .then((json)=>{
-            SetQuotes(json);
-            SetQuote(json[1]);
-        });
-     },[])
-
-     function ShowQuote(){
-
-        SetQuote(RandomQuotes(quotes))
-    }
-
 
 return(   
+  
+   
+ <div class="background-container">
     
-<div>
-        
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt=""/>
+<div class="stars"></div>
+<img class="earth"></img>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+</div>
+);
 
- <h1>My Portfolio </h1>
- <h2>Philbert Fontenelle </h2>    
-<motion.div
-//animate={{x:0, y:0, scale:1}}
-drag //="x||y"
->
-<section>
-<button onClick={ShowQuote}>Random</button>
-<h3 onClick={ShowQuote}>
-    
-    "{quote?.text}"
-</h3>
-<i>-{quote?.author}</i>
-</section>
-</motion.div>
-
-
-
-
-
-
-
-</div>)
 }
 

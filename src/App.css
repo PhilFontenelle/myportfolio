@@ -2,8 +2,19 @@
   text-align: center;
 }
 
+.techHeading{
+  font-size: 50%;
+  margin-top: -8%;
+
+}
+#s1{
+  display : "block";
+  margin : "auto";
+  border-color : "red"
+}
+
 .subHeading{
-color: grey;
+  color: grey;
 }
 
 #footer{
@@ -17,7 +28,7 @@ color: grey;
 #container {
   width:fit-content;
   margin: 15%;
-position: relative;
+  position: relative;
 }
 
 
@@ -27,7 +38,7 @@ position: relative;
 
 
 #deco{
-padding-right: auto;
+  padding-right: auto;
   display:block;
 }
 #decor{
@@ -52,7 +63,7 @@ padding-right: auto;
 }
 .Dot{
   text-align: center;
-display:inline-block;
+  display:inline-block;
   margin: 25px;
   
 
@@ -60,7 +71,7 @@ display:inline-block;
 
 .baseColor {
   color: #0d98ba;
-   text-align: center;
+  text-align: center;
    
   }
 

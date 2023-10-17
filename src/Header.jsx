@@ -1,49 +1,55 @@
 import React from "react";
 
 
-function Header (props) {
+function Header(props) {
 
-return (
 
-<div>
+    
+    return (
+        <div>
 
-    <svg
- 
-        style={{marginTop:'-1.5%',
-                width:'100%',
-                position:'absolute',
-                transform : 'rotate(180deg)',
-                zIndex:'-1'}} 
-        xmlns="http://www.w3.org/2000/svg" 
-        viewBox="0 0 1440 320">
+            <svg
 
-        <defs>
+                style={{
+                    marginTop: '-2.1%',
+                    width: '100%',
+                    position: 'absolute',
+                    transform: 'rotate(180deg)',
+                    zIndex: '-3'
+                }}
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320">
 
-         <linearGradient id="grad1"
-         >
+                <defs>
 
-         <p id="footer"> <em><b>Copyright {'\u00A9'}  Philbert</b></em> </p>
+                    <linearGradient id="grad1"
+                    >
 
-         <stop offset="0%" 
-        style={{stopColor:('#a7e9faed'),
-        }} />
+                        {/* <p id="footer"> <em><b>Copyright {'\u00A9'}  Philbert</b></em> </p> */}
 
-        <stop offset="100%" 
-        style={{stopColor:('#0d98ba'),
-        }} />
+                        <stop offset="0%"
+                            style={{
+                                stopColor: ('#a7e9faed'),
+                            }} />
 
-         </linearGradient>
+                        <stop offset="100%"
+                            style={{
+                                stopColor: ('#0d98ba'),
+                            }} />
 
-        </defs>    
+                    </linearGradient>
 
-        <path fill="url(#grad1)"  
-         d="M0,256L48,261.3C96,267,192,277,288,245.3C384,213,480,139,576,112C672,85,768,107,864,138.7C960,171,1056,213,1152,197.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
+                </defs>
 
-    </svg>
+                <path fill="url(#grad1)"
+                    d="M0,256L48,261.3C96,267,192,277,288,245.3C384,213,480,139,576,112C672,85,768,107,864,138.7C960,171,1056,213,1152,197.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
 
-</div>
-)}
+            </svg>
+
+        </div>
+    )
+}
 
 
 

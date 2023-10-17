@@ -2,8 +2,10 @@ import React from "react";
 
 
 const Skills = () => (
+	
 
-<div>
+<div> 
+	
 	<table> <thead>My Skills</thead>  
 	
 	<tbody>Languages</tbody>
@@ -27,14 +29,7 @@ const Skills = () => (
 	</table>
 
 
-
-
-
-
-
-
-
-
+	
 
 </div>
 );
